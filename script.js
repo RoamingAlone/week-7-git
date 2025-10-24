@@ -43,7 +43,7 @@ document.getElementById("countrySelect").addEventListener("change", async functi
     document.getElementById("rain").textContent = `${totalRain} mm`;
     document.getElementById("temp").textContent = `${avgTemp} °C`;
   } catch (err) {
-    alert("Error fetching data. Please try again.");
+    alert("Error fetching data. Please try again laters.");
     console.error(err);
   } finally {
     showSpinner(false);
