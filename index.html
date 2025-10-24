@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Country Information</title>
+</head>
+<body>
+    <div id="container">
+        <h2>Country Information</h2>
+        <select name="countrySelect" id="countrySelect">
+            <option>--select--</option>
+            <option value="australia">Australia</option>
+            <option value="japan">Japan</option>
+            <option value="poland">Poland</option>
+            <option value="vietnam">Vietnam</option>
+            <option value="brazil">Brazil</option>
+            <option value="russia">Russia</option>
+        </select>
+
+    <img id="spinner" src="https://frontend-mtft.infinityfreeapp.com/week6/loading.gif" alt="Loading...">
+
+    <table id="infoTable">
+        <tbody>
+            <tr>
+                <td class="label">Name</td>
+                <td id="name"></td>
+            </tr>
+            <tr>
+                <td class="label">Official Name</td>
+                <td id="officialName"></td>
+            </tr>
+            <tr>
+                <td class="label">Capital</td>
+                <td id="capital"></td>
+            </tr>
+            <tr>
+                <td class="label">Language</td>
+                <td id="language"></td>
+            </tr>
+            <tr>
+                <td class="label">Google Map Link</td>
+                <td id="map"></td>
+            </tr>
+            <tr>
+                <td class="label">Population</td>
+                <td id="population"></td>
+            </tr>
+            <tr>
+                <td class="label">Flag</td>
+                <td id="flag"></td>
+            </tr>
+            <tr>
+                <td class="label">Capital City Latitude and Longitude</td>
+                <td id="latlong"></td>
+            </tr>
+            <tr>
+                <td class="label">Capital City Total Rainfall (24h)</td>
+                <td id="rain"></td>
+            </tr>
+            <tr>
+                <td class="label">Capital City Average Temperature (24h)</td>
+                <td id="temp"></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>
